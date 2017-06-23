@@ -1,0 +1,29 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="ImageTargets.ImageTargetsAbout"
+	FlowDirection="LeftToRight">
+
+    <Grid x:Name="LayoutRoot" Background="White" Margin="0">
+        
+        <StackPanel HorizontalAlignment="Stretch"  Height="43" VerticalAlignment="Top" Margin="0" Background="#FF898989">
+            <Grid HorizontalAlignment="Stretch" Height="42">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="About" Width="68" FontSize="21.333" VerticalAlignment="Center" Height="41.373" Padding="0,5,0,0" Margin="0" Grid.Column="1"/>
+            </Grid>
+        </StackPanel>
+        <WebView Margin="0,43,0,52.5" Name="aboutText" />
+        <Grid Height="47.5" VerticalAlignment="Bottom" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Start" HorizontalAlignment="Center" Click="Start_Button_Click" VerticalAlignment="Center" Width="135" Margin="25,0,28,10" Height="37.5" Grid.Column="1"/>
+        </Grid>
+    </Grid>
+</Page>

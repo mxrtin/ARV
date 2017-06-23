@@ -1,0 +1,6 @@
+﻿  compilation object save succeeded; see C:\development\FonSoft\Vuforia\samples\VuMark\x64\Debug\VuMark\TexturedPixelShader.cso
+  compilation object save succeeded; see C:\development\FonSoft\Vuforia\samples\VuMark\x64\Debug\VuMark\TexturedVertexShader.cso
+  compilation object save succeeded; see C:\development\FonSoft\Vuforia\samples\VuMark\x64\Debug\VuMark\VideoBackgroundPixelShader.cso
+  compilation object save succeeded; see C:\development\FonSoft\Vuforia\samples\VuMark\x64\Debug\VuMark\VideoBackgroundVertexShader.cso
+  pch.cpp
+c:\development\fonsoft\vuforia\samples\vumark\vumark\common\videobackground.h(15): fatal error C1083: Cannot open include file: 'Vuforia\Mesh.h': No such file or directory

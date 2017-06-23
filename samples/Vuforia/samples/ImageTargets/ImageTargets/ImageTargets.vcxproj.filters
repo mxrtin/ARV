@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>746d4d52-7be4-4f3b-be45-cbc919dc4e20</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6f248bf2-cb64-4167-8e26-7f3254a1e9d2</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="SampleApplication">
+      <UniqueIdentifier>{96166d38-d952-48df-8444-f2f9da60bb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>f945fdb5-c643-4a17-a801-4090341ac6e0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ImageTargets">
+      <UniqueIdentifier>{a64e5d5e-7056-4c96-856e-f6e8e65dc8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\ImageTargets">
+      <UniqueIdentifier>{f0cf89d8-e77f-441d-8659-40e7db745a19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\Texture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TeapotMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleApplication\AppSession.cpp">
+      <Filter>SampleApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\ImageTargets\ImageTargetsRenderer.cpp">
+      <Filter>Features\ImageTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\ImageTargets\ImageTargetsMain.cpp">
+      <Filter>Features\ImageTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\ImageTargets\ImageTargetsView.xaml.cpp" />
+    <ClCompile Include="Common\SampleApp3DModel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.xaml.cpp" />
+    <ClCompile Include="Features\ImageTargets\ImageTargetsAbout.xaml.cpp" />
+    <ClCompile Include="Common\VideoBackgroundTexture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\VideoBackground.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Common\Texture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TeapotMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ShaderStructures.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleApplication\AppSession.h">
+      <Filter>SampleApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleApplication\AppControl.h">
+      <Filter>SampleApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ImageTargets\ImageTargetsRenderer.h">
+      <Filter>Features\ImageTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ImageTargets\ImageTargetsMain.h">
+      <Filter>Features\ImageTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ImageTargets\ImageTargetsView.xaml.h" />
+    <ClInclude Include="Common\RenderUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SampleApp3DModel.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.xaml.h" />
+    <ClInclude Include="Features\ImageTargets\ImageTargetsAbout.xaml.h" />
+    <ClInclude Include="Common\SampleUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VideoBackgroundTexture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VideoBackground.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TextureTeapotBlue.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TextureTeapotBrass.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TextureTeapotRed.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ImageTargets\building_texture.jpeg">
+      <Filter>Assets\ImageTargets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Common\TexturedVertexShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Common\TexturedPixelShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Common\VideoBackgroundPixelShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Common\VideoBackgroundVertexShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Features\ImageTargets\ImageTargetsView.xaml">
+      <Filter>Features\ImageTargets</Filter>
+    </Page>
+    <Page Include="SplashScreen.xaml" />
+    <Page Include="Features\ImageTargets\ImageTargetsAbout.xaml">
+      <Filter>Features\ImageTargets</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageTargets_TemporaryKey.pfx" />
+    <None Include="Assets\ImageTargets\StonesAndChips.dat">
+      <Filter>Assets\ImageTargets</Filter>
+    </None>
+    <None Include="Assets\ImageTargets\Tarmac.dat">
+      <Filter>Assets\ImageTargets</Filter>
+    </None>
+    <None Include="..\..\..\build\lib\x86\Vuforia.dll"/>
+    <None Include="..\..\..\build\lib\x64\Vuforia.dll"/>
+    <None Include="Assets\ImageTargets\IT_about.html">
+      <Filter>Assets\ImageTargets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\ImageTargets\buildings.txt">
+      <Filter>Assets\ImageTargets</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\ImageTargets\StonesAndChips.xml">
+      <Filter>Assets\ImageTargets</Filter>
+    </Xml>
+    <Xml Include="Assets\ImageTargets\Tarmac.xml">
+      <Filter>Assets\ImageTargets</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>746d4d52-7be4-4f3b-be45-cbc919dc4e20</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6f248bf2-cb64-4167-8e26-7f3254a1e9d2</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="SampleApplication">
+      <UniqueIdentifier>{96166d38-d952-48df-8444-f2f9da60bb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>f945fdb5-c643-4a17-a801-4090341ac6e0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\VuMark">
+      <UniqueIdentifier>{a64e5d5e-7056-4c96-856e-f6e8e65dc8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\VuMark">
+      <UniqueIdentifier>{f0cf89d8-e77f-441d-8659-40e7db745a19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\Texture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleApplication\AppSession.cpp">
+      <Filter>SampleApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.xaml.cpp" />
+    <ClCompile Include="AboutScreen.xaml.cpp" />
+    <ClCompile Include="Features\VuMark\VuMarkMain.cpp">
+      <Filter>Features\VuMark</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\VuMark\VuMarkRenderer.cpp">
+      <Filter>Features\VuMark</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\VuMark\VuMarkView.xaml.cpp" />
+    <ClCompile Include="Common\QuadMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\VideoBackground.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\VideoBackgroundTexture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Common\Texture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ShaderStructures.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleApplication\AppSession.h">
+      <Filter>SampleApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleApplication\AppControl.h">
+      <Filter>SampleApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RenderUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.xaml.h" />
+    <ClInclude Include="AboutScreen.xaml.h" />
+    <ClInclude Include="Features\VuMark\VuMarkMain.h">
+      <Filter>Features\VuMark</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\VuMark\VuMarkRenderer.h">
+      <Filter>Features\VuMark</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\VuMark\VuMarkView.xaml.h" />
+    <ClInclude Include="Common\QuadMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SampleUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VideoBackground.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VideoBackgroundTexture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\VuMark\card_info.png">
+      <Filter>Assets\VuMark</Filter>
+    </Image>
+    <Image Include="Assets\VuMark\VuMarkOutline.png">
+      <Filter>Assets\VuMark</Filter>
+    </Image>
+    <Image Include="Assets\VuMark\reticle.png">
+      <Filter>Assets\VuMark</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Common\TexturedVertexShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Common\TexturedPixelShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Common\VideoBackgroundPixelShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Common\VideoBackgroundVertexShader.hlsl">
+      <Filter>Common</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="SplashScreen.xaml" />
+    <Page Include="AboutScreen.xaml" />
+    <Page Include="Features\VuMark\VuMarkView.xaml">
+      <Filter>Features\VuMark</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VuforiaSamples_TemporaryKey.pfx" />
+    <None Include="..\..\..\build\lib\x86\Vuforia.dll"/>
+    <None Include="..\..\..\build\lib\x64\Vuforia.dll"/>
+    <None Include="Assets\VuMark\VM_about.html">
+      <Filter>Assets\VuMark</Filter>
+    </None>
+    <None Include="Assets\VuMark\Vuforia.dat">
+      <Filter>Assets\VuMark</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\VuMark\Vuforia.xml">
+      <Filter>Assets\VuMark</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
